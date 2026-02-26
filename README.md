@@ -6,6 +6,7 @@
 * Docker
 * k6 (Load Testing Tool)
 * Node.js Application (Juice Shop)
+```https://hub.docker.com/r/bkimminich/juice-shop```
 * JavaScript (k6 script)
 
 ##### Prerequisites
