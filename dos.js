@@ -12,6 +12,17 @@ export const options = {
   ],
 };
 
+/*export const options = {
+  scenarios: {
+    forever_test: {
+      executor: 'constant-vus',
+      vus: 100,
+      duration: '999h',
+    },
+  },
+};
+*/
+
 export default function () {
   let res = http.get('http://host.docker.internal:3000');
 
