@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  juice:
+    image: bkimminich/juice-shop
+    container_name: juice_shop
+    ports:
+      - "3000:3000"
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 128M
